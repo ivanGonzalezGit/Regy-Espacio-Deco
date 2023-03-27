@@ -1,0 +1,7 @@
+
+* elegir letra de la pagina.
+
+*establecer las dimenciones de las secciones y botones.
+
+* hacer menu:	icono movimiento, lista desplegable, cambio de color de las listas; 
+		botones con foto, redondeo de borde, sombra, texto blanco y sombra gris;

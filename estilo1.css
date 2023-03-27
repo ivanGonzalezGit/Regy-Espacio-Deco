@@ -1,23 +1,98 @@
-.logo {
-    width: 50px;
-    height: 50px;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
     
 }
 
-h1 {
-    display: inline;
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+
+}
+
+header {
+    margin: 30px;
 }
 
 #titulo {
-    display: inline;
-    width: 66.64%;
-    
+    text-align: center;
 }
 
-.divLaterales {
-    display: inline;
-    width: 16.66;
-    height: auto;
-    background-color: blueviolet;
-    border: 1px solid #000;
+h1 {
+    font: bold 36px verdana, sans-serif;
+    margin: 20px;
+}
+
+#menuDesplegable {
+    /*display: inline-block;*/
+    width: 15px;
+    height: 15px;
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out 0s;
+}   
+
+#menuDesplegable:hover {
+    transform: scale(1.05);
+}
+
+/*#rellenoiconomenu {
+    display: inline-block;
+}*/
+
+#menu {
+    text-align: center;
+}
+
+.botonMenu {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: 7px;
+    text-align: center;
+    box-shadow: grey 5px 5px 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+div > h2 {
+    font-size: 20px;
+}  
+
+#botonMenu1, #botonMenu2,#botonMenu3, #botonMenu4 {
+    transition: transform 0.2s ease-in-out 0s;
+}
+
+#botonMenu1:hover, #botonMenu2:hover, #botonMenu3:hover, #botonMenu4:hover {
+    transform: scale(1.05);
+    opacity: 0.6;
+}
+
+img.fotoBoton {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.laterales {
+    display: inline-block;
+}
+
+#principal {
+    display: inline-block;
+}
+
+.separador {
+    display: block;
+    margin: 10px;
+    border-top: 2px solid black;
 }
